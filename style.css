@@ -1,21 +1,21 @@
 h1{
-    text-align: center;
+    text-align:center;
     color:darkred;
 }
 p{
-    font-size: 25px;
-    text-align: center;
+    font-size:25px;
+    text-align:center;
 }
 .img{
-    text-align: center;
+    text-align:center;
 }
 img{
-    width: 30%;
+    width:30%;
 }
 .link{
-    text-align: center;
+    text-align:center;
 }
 a{
     color:darkslategray;
-    font-size: 20px;
+    font-size:20px;
 }
