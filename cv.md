@@ -15,3 +15,9 @@ function multiply(a, b){
   return a * b;
 };
 ```
+## Skills
+* HTML
+* CSS
+
+## Languages
+* English - A2
