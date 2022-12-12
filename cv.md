@@ -21,3 +21,6 @@ Area of training
 
 Chair
  - Department of Membrane Technology
+****
+## Languages
+ - English - A2
