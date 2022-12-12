@@ -1,1 +1,1 @@
-# rsschool-cv
+https://apaetus.github.io/rsschool-cv/cv
