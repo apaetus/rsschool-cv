@@ -10,8 +10,11 @@ I have an engineer's degree in chemical technology. I decided to retrain as a fr
 
 ## Code example
 function multiply(a, b){
+    
     a \* b
+    
     return a \* b;
+
 };
 
 ## Education
