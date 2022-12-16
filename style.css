@@ -1,0 +1,174 @@
+body {
+    font-family: 'Lora', serif;
+    color: #dfab4a;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #c0c0c0;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color:#dfab4a;
+    text-decoration: none;
+}
+
+.cv-container {
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: #213333;
+}
+
+.header-container {
+    height: 70px;
+    background-color: #5C1A1B;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navigation {
+    padding: 20px 0;
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.top-container {
+    width: 50%;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.user {
+    display :inline-flex;
+}
+
+.avatar {
+    height: 80px;
+    margin: 10% 20px;
+}
+
+.username {
+    margin: 10% auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.contacts-container {
+    display: flex;
+    width: 100%;
+    margin: 0 25px;
+}
+
+.contacts {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.logo-contact {
+    height: 50px;
+}
+
+.contact-item {
+    filter: grayscale(1);
+    margin: 0 15px;
+    padding: 0 5px;
+}
+
+.contact-item:hover {
+    filter: grayscale(0);
+}
+
+.about-container {
+    background-color: #213333;
+    color: #213333;
+}
+
+.about {
+    position: relative;
+    left: 50px;
+    width: 80%;
+    height: 80%;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #c0c0c0;
+}
+
+.text-about {
+    font-size: 20px;
+}
+
+.containers {
+    margin: 10px auto;
+    width: 80%;
+    border-top: 1px solid #dfab4a;
+
+}
+
+.title {
+    text-align: start;
+    font-size: 32px;
+}
+
+.text {
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+.list-skills {
+    margin: 0 34% 0 34%;
+    width: 32%;
+    text-align: start;
+}
+
+.list {
+    list-style-type: circle;
+    margin-bottom: 20px;
+}
+
+.pre {
+    margin: 0 31% 0 31%;
+    width: 38%;
+}
+
+.code {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    text-align: start;
+}
+
+.footer-container {
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #5C1A1B;
+}
+
+.footer-section {
+    width: 95px
+}
+
+.rss {
+    height: 35px;
+}
