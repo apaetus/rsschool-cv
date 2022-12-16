@@ -7,16 +7,89 @@
     <title>CV</title>
 </head>
 <body>
-    <nav>
+    <header class="header-container">
+        <nav class="nav-container">
+            <ul class="navigation">
+                <li class="nav-item"><a href="#">Contacts</a></li>
+                <li class="nav-item"><a href="#">About me</a></li>
+                <li class="nav-item"><a href="#">Skills</a></li>
+                <li class="nav-item"><a href="#">Code example</a></li>
+                <li class="nav-item"><a href="#">Projects</a></li>
+                <li class="nav-item"><a href="#">Education</a></li>
+                <li class="nav-item"><a href="#">Language</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </nav>
+    <main class="main-container">
+        <section class="profile-container">
+            <img class="avatar" src="assets/lady-icon-by-Icons8.png" alt="avatar">
+            <h1>Ekaterina Leontieva</h1>
+            <h3>Junior Front-end Developer</h3>
+        </section>
 
-    <main>
+        <section class="contacts-container">
+            <ul class="contacts">
+                <li><a href="https://github.com/apaetus" class="contact-item github"><img class="logo-contact" src="/assets/github-icon-by-Icons8.png" alt="Github"></a></li>
+                <li><a href="https://discordapp.com/users/718951025502847108/" class="contact-item discord"><img class="logo-contact" src="/assets/discord-icon-by-Icons8.png" alt="Discord"></a></li>
+                <li><a href="https://t.me/koal_ko" class="contact-item telegram"><img class="logo-contact" src="/assets/telegram-icon-by-Icons8.png" alt="Telegram"></a></li>
+                <li><a href="mailto:katharina00000@gmail.com" class="contact-item email"><img class="logo-contact" src="/assets/gmail-icon-by-Icons8.png" alt="Email"></a></li>
+            </ul>
+        </section>
 
+        <section class="about-container top-container">
+            <div class="about">
+                <h2>About me</h2>
+                <p class="text-about"><b>I have an engineer's degree in chemical technology. I decided to retrain as a frontend developer because I like to structure and optimize processes. I'm not afraid to ask stupid questions.</b></p>
+            </div>
+        </section>
+
+        <section class="skills-container containers">
+            <h2 class="title">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+            </ul>
+        </section>
+
+        <section class="code-example containers">
+            <h2 class="title">Code example</h2>
+            <pre class="code"><code>                
+function multiply(a, b) {
+    a &midast; b;
+    return a &midast; b;
+}</code></pre>
+        </section>
+
+        <section class="projects-container containers">
+            <h2 class="title">Projects</h2>
+            <div>
+                <li><a href="#" class="text">Curriculum Vitae</a></li>
+            </div>
+        </section>
+
+        <section class="education containers">
+            <h2 class="title">Education</h2>
+            <p class="text">Mendeleev University of Chemical Technology</p>
+        </section>
+
+        <section class="language containers">
+            <h2 class="title">Language</h2>
+            <p class="text">English - A2</p>
+        </section>
     </main>
 
-    <footer>
-        
+    <footer class="footer-container">
+        <section class="github-logo">
+            <a href="https://github.com/apaetus">Github</a>
+        </section>
+
+        <section class="year">2022</section>
+
+        <section class="rsschool-logo">
+            <a href="https://rs.school/js-stage0/"><img src="./assets/rsschool.svg" alt="RS-School logo"></a>
+        </section>
     </footer>
 </body>
 </html>
