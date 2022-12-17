@@ -1,1 +1,204 @@
-style
+body {
+    font-family: 'Lora', serif;
+    color: #dfab4a;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #c0c0c0;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color:#dfab4a;
+    text-decoration: none;
+}
+
+.cv-container {
+    margin: 0 auto;
+    max-width: 1024px;
+    background-color: #213333;
+    box-shadow: 15px 0 20px #141f1f, -15px 0 20px #141f1f;
+
+}
+
+.header-container {
+    height: 70px;
+    background-color: #5C1A1B;
+}
+
+.navigation {
+    padding: 20px 0;
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top-container {
+    width: 50%;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.user {
+    display :inline-flex;
+}
+
+.avatar-container {
+    margin: auto 20px;
+    padding: 15px;
+    border: 1px solid #000;
+}
+
+.avatar {
+    height: 80px;
+}
+
+.username {
+    margin: 10% auto;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.contacts-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contacts {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.github {
+    background: url(./assets/github-icon-by-Icons8-1.png);
+}
+
+.github:hover {
+    background: url(./assets/github-icon-by-Icons8.png);
+}
+
+.discord {
+    background: url(./assets/discord-icon-by-Icons8-1.png);
+}
+
+.discord:hover {
+    background: url(./assets/discord-icon-by-Icons8.png);
+}
+
+.telegram {
+    background: url(./assets/telegram-icon-by-Icons8-1.png);
+}
+
+.telegram:hover {
+    background: url(./assets/telegram-icon-by-Icons8.png);
+}
+
+.email {
+    background: url(./assets/gmail-icon-by-Icons8-1.png);
+}
+
+.email:hover {
+    background: url(./assets/gmail-icon-by-Icons8.png);
+}
+
+.contact-item, .contact-item:hover {
+    background-size: contain;
+    display: block;
+    margin: 0 15px;
+    padding: 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.about {
+    position: relative;
+    left: 50px;
+    width: 85%;
+    height: 90%;
+    margin-top: 30px;
+    padding: 20px;
+    border: 3px solid #dfab4a;
+    border-radius: 50%;
+}
+
+.title-about {
+    margin: 0;
+}
+
+.text-about {
+    margin: 20px 0 0;
+    font-size: 20px;
+}
+
+.containers {
+    margin: 10px auto;
+    width: 80%;
+    border-top: 1px solid #dfab4a;
+
+}
+
+.title {
+    text-align: start;
+    font-size: 32px;
+}
+
+.text {
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+.list-skills {
+    margin: 0 calc(100% / 3);
+    text-align: start;
+}
+
+.list {
+    list-style-type: circle;
+    margin-bottom: 20px;
+}
+
+.pre {
+    margin: 0 calc(100% / 3);
+}
+
+.code {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    text-align: start;
+}
+
+.footer-container {
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #5C1A1B;
+}
+
+.footer-item {
+    margin: 0 calc(100% / 9);
+    width: 95px;
+}
