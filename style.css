@@ -25,6 +25,8 @@ a {
     margin: 0 auto;
     max-width: 1024px;
     background-color: #213333;
+    box-shadow: 15px 0 20px #141f1f, -15px 0 20px #141f1f;
+
 }
 
 .header-container {
@@ -78,7 +80,7 @@ h1 {
 .contacts-container {
     display: flex;
     width: 100%;
-    margin: 0 autox;
+    margin: 0 auto;
 }
 
 .contacts {
@@ -129,19 +131,15 @@ h1 {
     height: 40px;
 }
 
-.about-container {
-    background-color: #213333;
-    color: #213333;
-}
-
 .about {
     position: relative;
     left: 50px;
-    width: 81%;
-    height: 80%;
+    width: 85%;
+    height: 90%;
     margin-top: 30px;
     padding: 20px;
-    background-color: #c0c0c0;
+    border: 3px solid #dfab4a;
+    border-radius: 50%;
 }
 
 .title-about {
